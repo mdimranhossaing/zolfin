@@ -1,0 +1,17 @@
+@include('layout.header')
+
+  @yield('home')
+  @yield('about')
+  @yield('404')
+  @yield('contact')
+  @yield('blog')
+  @yield('blog-details')
+  @yield('faq')
+  @yield('portfolio-details')
+  @yield('portfolio')
+  @yield('price')
+  @yield('process')
+  @yield('service-details')
+  @yield('team')
+
+@include('layout.footer')
